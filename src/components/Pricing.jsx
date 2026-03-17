@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section className="py-5 bg-light">
+    <section id="pricing" className="py-5 bg-light">
       <div className="container">
 
         <h2 className="text-center mb-5">Pricing Plans</h2>
