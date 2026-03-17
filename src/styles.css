@@ -1,0 +1,144 @@
+/* Global */
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:#f5f7fb;
+  padding-top:80px;
+  }
+  
+  /* Navbar */
+  .navbar{
+  background:linear-gradient(90deg,#111827,#1f2937);
+  box-shadow:0 4px 15px rgba(0,0,0,0.2);
+  }
+  
+  /* HERO SECTION */
+  .hero-section{
+  min-height:90vh;
+  background:linear-gradient(135deg,#4f46e5,#9333ea);
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+  }
+  
+  /* Animated gradient glow */
+  .hero-section::before{
+  content:"";
+  position:absolute;
+  width:600px;
+  height:600px;
+  background:radial-gradient(circle,#ffffff30,transparent 70%);
+  top:-100px;
+  left:-100px;
+  animation:floatGlow 8s infinite alternate;
+  }
+  
+  .hero-section::after{
+  content:"";
+  position:absolute;
+  width:500px;
+  height:500px;
+  background:radial-gradient(circle,#ffffff30,transparent 70%);
+  bottom:-120px;
+  right:-120px;
+  animation:floatGlow 10s infinite alternate;
+  }
+  
+  @keyframes floatGlow{
+  0%{transform:translateY(0px)}
+  100%{transform:translateY(40px)}
+  }
+  
+  /* HERO BUTTONS */
+  .hero-section .btn{
+  transition:0.3s;
+  }
+  
+  .hero-section .btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  /* FEATURE CARDS */
+  .feature-card{
+  border:none;
+  border-radius:12px;
+  transition:0.3s;
+  background:white;
+  }
+  
+  .feature-card:hover{
+  transform:translateY(-12px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.15);
+  }
+  
+  /* FEATURE ICONS */
+  .feature-card i{
+  font-size:40px;
+  color:#4f46e5;
+  }
+  
+  /* PRICING CARDS */
+  .pricing-card{
+  border-radius:12px;
+  transition:0.3s;
+  border:none;
+  }
+  
+  .pricing-card:hover{
+  transform:scale(1.05);
+  box-shadow:0 20px 40px rgba(0,0,0,0.2);
+  }
+  
+  /* Highlight PRO card */
+  .pricing-card.border-primary{
+  background:linear-gradient(135deg,#4f46e5,#9333ea);
+  color:white;
+  }
+  
+  .pricing-card.border-primary .btn{
+  background:white;
+  color:#4f46e5;
+  border:none;
+  }
+  
+  /* TESTIMONIALS */
+  .card{
+  border:none;
+  border-radius:12px;
+  transition:.3s;
+  }
+  
+  .card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 15px 30px rgba(0,0,0,0.15);
+  }
+  
+  /* FAQ */
+  .accordion-button{
+  font-weight:600;
+  }
+  
+  /* FOOTER */
+  .footer-section{
+  background:#111827;
+  color:white;
+  padding:60px 0;
+  }
+  
+  .footer-section a{
+  color:#9ca3af;
+  text-decoration:none;
+  }
+  
+  .footer-section a:hover{
+  color:white;
+  }
+  .feature-card i{
+    text-shadow:0 0 15px rgba(79,70,229,0.8);
+    filter:drop-shadow(0 0 8px rgba(147,51,234,0.7));
+    }
