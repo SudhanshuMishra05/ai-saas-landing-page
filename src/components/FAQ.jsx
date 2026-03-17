@@ -2,7 +2,7 @@ import React from "react";
 
 function FAQ() {
   return (
-    <section className="bg-light py-5">
+    <section id="faq" className="bg-light py-5">
       <div className="container">
 
         <h2 className="text-center fw-bold mb-5">
