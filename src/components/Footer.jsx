@@ -18,18 +18,18 @@ function Footer() {
           <div className="col-md-4">
             <h6 className="fw-bold">Product</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="footer-link">Features</a></li>
-              <li><a href="#" className="footer-link">Pricing</a></li>
-              <li><a href="#" className="footer-link">API</a></li>
+              <li><a href="#features" className="footer-link">Features</a></li>
+              <li><a href="#pricing" className="footer-link">Pricing</a></li>
+              <li><a href="#api" className="footer-link">API</a></li>
             </ul>
           </div>
 
           <div className="col-md-4">
             <h6 className="fw-bold">Company</h6>
             <ul className="list-unstyled">
-              <li><a href="#" className="footer-link">About</a></li>
-              <li><a href="#" className="footer-link">Contact</a></li>
-              <li><a href="#" className="footer-link">Privacy</a></li>
+              <li><a href="#about" className="footer-link">About</a></li>
+              <li><a href="#contact" className="footer-link">Contact</a></li>
+              <li><a href="#privacy" className="footer-link">Privacy</a></li>
             </ul>
           </div>
 

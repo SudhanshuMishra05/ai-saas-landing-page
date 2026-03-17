@@ -6,7 +6,7 @@ function Navbar(){
     
     <div className="container">
     
-    <a className="navbar-brand fw-bold">
+    <a href="#" className="navbar-brand fw-bold">
     PromptAI
     </a>
     
@@ -23,15 +23,15 @@ function Navbar(){
     <ul className="navbar-nav ms-auto">
     
     <li className="nav-item">
-    <a className="nav-link">Features</a>
+    <a href="#features" className="nav-link">Features</a>
     </li>
     
     <li className="nav-item">
-    <a className="nav-link">Pricing</a>
+    <a href="#pricing" className="nav-link">Pricing</a>
     </li>
     
     <li className="nav-item">
-    <a className="nav-link">FAQ</a>
+    <a href="#faq" className="nav-link">FAQ</a>
     </li>
     
     </ul>
