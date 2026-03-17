@@ -2,7 +2,7 @@ import React from "react";
 
 function Features() {
   return (
-    <section className="py-5">
+    <section id="features" className="py-5">
       <div className="container">
 
         <h2 className="text-center mb-5">Powerful AI Features</h2>
