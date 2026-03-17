@@ -6,7 +6,7 @@ function Navbar(){
     
     <div className="container">
     
-    <a href="#" className="navbar-brand fw-bold">
+    <a href="/" className="navbar-brand fw-bold">
     PromptAI
     </a>
     
